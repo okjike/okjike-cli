@@ -1,0 +1,30 @@
+{
+  "name": "okjike-cli",
+  "version": "0.0.0-rc1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "okjike": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okjike/okjike-cli.git"
+  },
+  "keywords": [
+    "jike"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okjike/okjike-cli/issues"
+  },
+  "homepage": "https://github.com/okjike/okjike-cli#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.0"
+  }
+}
